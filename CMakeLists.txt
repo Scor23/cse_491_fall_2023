@@ -5,7 +5,7 @@ project(CSE_491)
 
 # For now, default to building both the main app and tests
 set(BUILD_MAIN 1)
-set(BUILD_TESTS 1)
+set(BUILD_TESTS 0)
 if ("${CMAKE_BUILD_TYPE}" STREQUAL "Test")
     set(BUILD_MAIN 0)
     set(BUILD_TESTS 1)
